@@ -79,6 +79,7 @@ body{
 }
 
 header{
+	position: relative;
 	padding-left: 210px;
 	min-width: 558px;
 	max-width: 960px;
@@ -431,6 +432,25 @@ footer .recentTweet p + p{
 
 /***** Navigation *****/
 
+a.mobileNav_btn{
+	display: none;
+	position: absolute;
+	top: 41.5px;
+	right: 2.5%;
+	width: 80px;
+	height: 40px;
+	background: #ea222d;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+	font-weight: bold;
+	text-shadow: none;
+	text-transform: uppercase;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px; /* future proofing */
+}
 
 nav a.logo_sm{
 	display: block;
@@ -955,7 +975,7 @@ body.speakers a.speakerLink{
 	
 	header{
 		float: none;
-		padding: 0 0 0 2.5%;
+		padding: 0 0 66px 2.5%;
 		min-width: 95%;
 		max-width: 95%;
 		width: 95%;
@@ -969,12 +989,12 @@ body.speakers a.speakerLink{
 	}
 	
 	nav{
-		position: relative;
+		position: absolute;
+		top: 123px;
 		height: auto;
 		width: auto;
 		background: none;
 		border: none;
-		margin-bottom: 24px;
 		min-width: 95%;
 		max-width: 95%;
 		width: 95%;
@@ -993,17 +1013,16 @@ body.speakers a.speakerLink{
 		text-align: left;
 		float: left;
 		display: inline;
-		margin-bottom: 24px;
 	}
 	
 	nav ul li{
 		display: inline;
 		margin: 0 0 0 25px;
-		
 	}
 	
 	nav ul li.current-menu-item, nav ul li.current-page-item, .single-speakers nav ul li.current_page_parent.current_page_ancestor, nav ul li.current_page_parent{
 		background: none;
+		text-decoration: underline;
 	}
 	
 	nav ul li:first-child{
@@ -1073,7 +1092,8 @@ body.speakers a.speakerLink{
 		min-width: 100%;
 		max-width: 100%;
 		width: 100%;
-		padding: 0;
+		padding: 0 2.5%;
+		padding-bottom: 66px;
 	}
 	
 	a.logo_lrg{
@@ -1250,14 +1270,30 @@ body.speakers a.speakerLink{
 /*-- Mobile Devices --*/
 @media only screen and (max-width: 544px) {
 	
+	#wrap{
+		background: none;
+	}
+	
+	header{
+		min-width: 95%;
+		max-width: 95%;
+		width: 95%;
+		padding: 0 2.5% 0 2.5%;
+	}
+	
+	a.mobileNav_btn{
+		display: block;
+	}
+	
 	a.logo_lrg{
-		width: 100%;
+		width: 200px;
 		height: 123px;
 		padding: 0;
 		margin: 0;
+		float: none;
+		display: block;
+		background-size: 100%;
 		background-position: center center;
-		-moz-background-size: 70%;
-		background-size: 70%;
 	}
 	
 	header hgroup{
@@ -1266,7 +1302,12 @@ body.speakers a.speakerLink{
 	
 	
 	nav{
+		position: relative;
+		top: 0;
+		min-width: 100%;
+		max-width: 100%;
 		width: 100%;
+		padding: 0;
 		text-align: center;
 		height: auto;
 	}
@@ -1295,6 +1336,10 @@ body.speakers a.speakerLink{
 		margin: 0;
 	}
 	
+	nav ul li.current-menu-item, nav ul li.current-page-item, .single-speakers nav ul li.current_page_parent.current_page_ancestor, nav ul li.current_page_parent{
+		text-decoration: none;
+	}
+	
 	nav ul li a{
 		display: block;
 		width: 100%;
@@ -1307,8 +1352,6 @@ body.speakers a.speakerLink{
 	}
 	
 	nav ul + ul{
-		height: 57px;
-		border-bottom: 1px solid #bbbcbc;
 		padding: 0;
 		text-align: center;
 	}
@@ -1317,12 +1360,11 @@ body.speakers a.speakerLink{
 		display: inline-block;
 		border: none;
 		float: none;
-		width: 32px;
-		height: 57px;
-		line-height: 57px;
-		vertical-align: middle;
-		padding: 0;
+		width: 31px;
+		height: 31px;
+		padding: 15px 0;
 		margin: 0 0 0 20px;
+		
 	}
 	
 	nav ul + ul li:first-child{
@@ -1331,10 +1373,11 @@ body.speakers a.speakerLink{
 	}
 
 	nav ul + ul li a{
-		display: inline-block;
+		display: block;
 		margin: 0;
 		padding: 0;
 		height: 31px;
+		width: 31px;
 	}
 	
 	.featuredSpeakers{
@@ -1383,6 +1426,10 @@ body.speakers a.speakerLink{
 	}
 	
 	.news .entry-content img.attachment-post-thumbnail, .archive .entry-content img.attachment-post-thumbnail{
+		display: none;
+	}
+	
+	footer .navigation{
 		display: none;
 	}
 	

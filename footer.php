@@ -3,6 +3,25 @@
 		</div> <!-- end of #main -->
 		    
 	</div> <!-- end of #wrap -->
+	
+	<nav id="mainNav">
+			
+		<a href="<?php echo home_url(); ?>" class="logo_sm">TEDxYYC</a>
+	
+    	<?php wp_nav_menu(array('theme_location' => 'primary_navigation', 'depth' => 1)); ?>
+		
+		<ul class="clearfix">
+			<li><a href="http://twitter.com/#!/tedxyyc/">Twitter</a></li>
+			<li><a href="http://www.facebook.com/TEDxYYC">Facebook</a></li>
+			<li><a href="/contact/">Newsletter</a></li>
+		</ul>
+		
+		<a href="/event-details/" class="flagNav">
+			<h2>Friday May 25th 2012</h2>
+			<h3>Telus Spark Science Centre</h3>
+		</a>
+
+	</nav>
 
 	<div id="footerWrap">
 

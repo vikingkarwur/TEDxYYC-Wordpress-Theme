@@ -29,4 +29,5 @@ $(document).ready(function() {
 			$('a.flagNav').animate({'margin-left':'-195px'},400);
 		}
 	});
+
 });

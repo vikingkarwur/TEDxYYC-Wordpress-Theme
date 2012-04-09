@@ -3,11 +3,11 @@
 				<section class="flexslider row">
 					<ul class="slides">
 						<li>
-							<a href="https://yyc-tedx.myreviewroom.com/" target="_blank"><img src="/assets/TEDxYYC_homepage1.jpg" alt="Applications are now open." width="940" height="446" /></a>
-						</li>						
-						<!-- <li>
-							<a href="/event-details/"><img src="/img/header_3speakers.jpg" alt="leader_homepage" width="940" height="446" /></a>
-						</li>-->
+							<a href="/speakers/moeed-ahmad/" title="Featured Speaker: Moeed Ahmad - Director of Digital, Al Jazeera"><img src="/img/homepage_featuredSpeaker_moeed.jpg" alt="Featured Speaker: Moeed Ahmad - Director of Digital, Al Jazeera" width="940" height="446" /></a>
+						</li>
+						<li>
+							<img src="/img/homepage_applicationsClosed.jpg" alt="Applications are now closed." width="940" height="446" />
+						</li>					
 					</ul>
 				</section>
 				
