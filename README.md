@@ -1,18 +1,16 @@
-# [Roots Theme](http://rootstheme.com/)
+# [TEDxYYC Wordpress Theme](http://tedxyyc.com/)
 
-Roots is a starting WordPress theme made for developers that’s based on [HTML5 Boilerplate](http://html5boilerplate.com/), Starkers, and the most popular CSS frameworks.
-
-Roots includes support for Blueprint CSS, 960 Grid System, 1140px Grid, Adapt.js, Less Framework, Foundation, and Bootstrap with the ability to set site-wide classes for the main content area and the sidebar. There's also the option to not use any CSS framework.
+The TEDxYYC Wordpress Theme is a starting WordPress theme made for TEDx organizers that’s based on the [Roots Wordpress Theme](http://www.rootstheme.com/), [HTML5 Boilerplate](http://html5boilerplate.com/), Starkers, and one of the best CSS frameworks, [Foundation](http://foundation.zurb.com/).
 
 ## Quick start
 
-* Clone the git repo - `git clone git://github.com/retlehs/roots.git` - or [download it](https://github.com/retlehs/roots/zipball/master)
-* Read [Theme Activation](https://github.com/retlehs/roots/wiki/Theme-activation) to understand everything that happens once you activate Roots
+* Clone the git repo or download it
+* And active the theme options (incomplete)
 
 ## Features
 
 * HTML5 Boilerplate's markup, style, and .htaccess
-* Popular CSS frameworks included (with the option to use none)
+* Foundation CSS framework
 * Clean URLs (no more `/wp-content/`)
 * All static theme assets are rewritten to the website root (`/css/`, `/img/`, and `/js/`)
 * Cleaner HTML output of navigation menus
@@ -21,28 +19,25 @@ Roots includes support for Blueprint CSS, 960 Grid System, 1140px Grid, Adapt.js
 * The gallery shortcode has been modified to use `<figure>` and `<figcaption>`
 * `wp_head` has been cleaned up along with the output of enqueued styles and scripts
 * Robots.txt optimized for SEO
-* [Multilingual ready](http://www.rootstheme.com/wpml/) (English, Spanish, French, Italian, Dutch, Brazilian Portuguese, Macedonian, Finnish, Danish, and Turkish)
 
 ### Theme Options
-![Theme Options](http://www.rootstheme.com/img/roots-settings.png)
+* Incomplete
 
 ## Contributing
 
 Anyone and everyone is welcome to contribute. There are several ways you can help out:
 
-1. Raising [issues](https://github.com/retlehs/roots/issues) on GitHub
+1. Raising issues on GitHub
 2. Sending pull requests for bug fixes or new features and improvements
-3. Making the [docs](https://github.com/retlehs/roots/wiki) better
-4. Replying to questions on the [mailing list](http://groups.google.com/group/roots-theme)
+3. Making the docs better
+4. Joining and contributing to the TEDxWebsites project
 
 ## Project information
 
-* Source: [https://github.com/retlehs/roots](https://github.com/retlehs/roots)
-* Web: [http://rootstheme.com/](http://rootstheme.com/)
-* Docs: [https://github.com/retlehs/roots/wiki](https://github.com/retlehs/roots/wiki)
-* Mailing list: [http://groups.google.com/group/roots-theme](http://groups.google.com/group/roots-theme)
-* Twitter: [@retlehs](https://twitter.com/#!/retlehs)
-* Contributors: [https://github.com/retlehs/roots/contributors](https://github.com/retlehs/roots/contributors)
+* Source: [https://github.com/jamesbull/TEDxYYC-Wordpress-Theme](https://github.com/jamesbull/TEDxYYC-Wordpress-Theme)
+* Web: [http://tedxyyc.com/](http://tedxyyc.com/)
+* Twitter: [@jimbones](https://twitter.com/#!/jimbones)
+* Contributors: [https://github.com/jamesbull/TEDxYYC-Wordpress-Theme/contributors](https://github.com/jamesbull/TEDxYYC-Wordpress-Theme/contributors)
 
 ## License
 
@@ -52,13 +47,7 @@ Anyone and everyone is welcome to contribute. There are several ways you can hel
 * Modernizr: MIT/BSD license
 * jQuery: MIT/GPL license
 * Normalize.css: Public Domain
-* Blueprint CSS: Modified MIT License
-* 960 Grid System: MIT/GPL License
-* The 1140px Grid: CC BY-SA 3.0 Australia License
-* Adapt.js: MIT/GPL license
-* Less Framework 4: MIT license
 * Foundation: MIT license
-* Bootstrap: Apache 2.0 license
 
 ### Everything else:
 
