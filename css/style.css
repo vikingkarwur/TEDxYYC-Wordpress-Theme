@@ -130,6 +130,10 @@ nav{
 	padding: 0;
 }
 
+#content aside ul,#content aside ol{
+	padding: 0;
+}
+
 .single-speakers #content aside{
 	border: none;
 }
